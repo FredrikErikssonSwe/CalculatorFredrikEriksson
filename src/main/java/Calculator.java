@@ -1,5 +1,8 @@
 
 public class Calculator {
-	double x;
-	double y;
+	
+	//Addition, add, +
+	public double addition(double x, double y){
+		return x + y;
+	}
 }
