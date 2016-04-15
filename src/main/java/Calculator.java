@@ -1,24 +1,19 @@
 
 public class Calculator {
-	double result;
 	//Addition, add, (+)
-	public void addition(double x, double y){
-		result = x + y;
-		System.out.println("Talet " + x + " + " + y + " = " +result);
+	public double addition(double x, double y){
+		return  x + y;
 	}
 	//Subtraktion, remove, (-)
-	public void subtraktion(double x, double y){
-		result = x - y;
-		System.out.println("Talet " + x + " - " + y + " = " +result);
+	public double subtraktion(double x, double y){
+		return x - y;
 	}
 	//Division, divide, (/)
-	public void division(double x, double y){
-		result = x / y;
-		System.out.println("Talet " + x + " / " + y + " = " +result);
+	public double division(double x, double y){
+		return x / y;
 	}
 	//Multiplikation, multiply, (*)
-	public void multiplikation(double x, double y){
-		result = x * y;
-		System.out.println("Talet " + x + " * " + y + " = " +result);
+	public double multiplikation(double x, double y){
+		return x * y;
 	}
 }
